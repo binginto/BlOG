@@ -1,0 +1,42 @@
+2017-11-29 16:42:55,347 ERROR 38240 [-/127.0.0.1/-/1734ms GET /news] nodejs.ReferenceError: data is not defined
+    at NewsService.list (C:\Users\UC\Desktop\MyRepo\egg-demo\app\service\news.js:19:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 38240
+hostname: UC-20171020DKPW
+
+2017-11-29 17:33:52,597 ERROR 51124 [-/127.0.0.1/-/5695ms GET /news] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\UC\Desktop\MyRepo\egg-demo\node_modules\urllib\lib\urllib.js:749:15)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ResponseTimeoutError'
+requestId: 1
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%220%22'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 5676, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: 443 }
+pid: 51124
+hostname: UC-20171020DKPW
+
+2017-11-29 17:35:00,479 ERROR 51124 [-/127.0.0.1/-/6153ms GET /news] nodejs.ResponseTimeoutError: Response timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/item/15800676.json -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":4,"errorSocketCount":0,"timeoutSocketCount":2,"requestCount":5,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\UC\Desktop\MyRepo\egg-demo\node_modules\urllib\lib\urllib.js:749:15)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ResponseTimeoutError'
+requestId: 7
+data: undefined
+path: '/v0/item/15800676.json'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 5008, keepAliveSocket: true, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/item/15800676.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: 443 }
+pid: 51124
+hostname: UC-20171020DKPW
+
