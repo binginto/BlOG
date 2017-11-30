@@ -77,8 +77,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "multipart": {
@@ -109,14 +109,15 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\app\\public",
+      "dir": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_front\\dist",
       "dynamic": true,
       "preload": false,
       "buffer": false,
-      "maxFiles": 1000
+      "maxFiles": 1000,
+      "prifix": "../myblog_front/dist"
     },
     "view": {
-      "root": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\app\\view",
+      "root": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_front\\dist",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
@@ -147,7 +148,7 @@
       "scripts": {
         "test": "egg-bin test",
         "cov": "egg-bin cov",
-        "dev": "egg-bin dev"
+        "dev": "egg-bin dev --port 7003"
       },
       "author": "",
       "license": "ISC",
@@ -161,9 +162,9 @@
         "egg-mock": "^3.13.1"
       }
     },
-    "baseDir": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo",
+    "baseDir": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back",
     "HOME": "C:\\Users\\UC",
-    "rundir": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\run",
+    "rundir": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -193,7 +194,7 @@
       }
     },
     "logger": {
-      "dir": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\logs\\egg-demo",
+      "dir": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\logs\\egg-demo",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -284,8 +285,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-session",
+      "from": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-session",
       "version": "3.0.0"
     },
     "security": {
@@ -297,8 +298,8 @@
         "session"
       ],
       "env": [],
-      "from": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security",
+      "from": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security",
       "version": "2.0.0"
     },
     "jsonp": {
@@ -310,8 +311,8 @@
         "security"
       ],
       "env": [],
-      "from": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-jsonp",
+      "from": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -323,8 +324,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-onerror",
+      "from": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -334,8 +335,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-i18n",
+      "from": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -345,8 +346,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-watcher",
+      "from": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -356,8 +357,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-multipart",
+      "from": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-multipart",
       "version": "2.0.0"
     },
     "development": {
@@ -371,8 +372,8 @@
       "env": [
         "local"
       ],
-      "from": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-development",
+      "from": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-development",
       "version": "2.0.0"
     },
     "schedule": {
@@ -382,8 +383,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-schedule",
+      "from": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-schedule",
       "version": "3.1.1"
     },
     "logrotator": {
@@ -395,8 +396,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-logrotator",
+      "from": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-logrotator",
       "version": "3.0.0"
     },
     "static": {
@@ -406,8 +407,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-static",
+      "from": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-static",
       "version": "2.0.0"
     },
     "view": {
@@ -417,8 +418,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-view",
+      "from": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-view",
       "version": "2.0.0"
     },
     "nunjucks": {
@@ -431,8 +432,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\config\\plugin.js",
-      "path": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-view-nunjucks",
+      "from": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\plugin.js",
+      "path": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-view-nunjucks",
       "version": "2.1.4"
     },
     "cors": {
@@ -442,8 +443,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\config\\plugin.js",
-      "path": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-cors",
+      "from": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\plugin.js",
+      "path": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-cors",
       "version": "2.0.0"
     }
   }

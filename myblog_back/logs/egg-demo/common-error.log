@@ -40,3 +40,536 @@ res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 500
 pid: 51124
 hostname: UC-20171020DKPW
 
+2017-11-30 11:17:20,772 ERROR 49468 [-/127.0.0.1/-/10ms GET /] nodejs.TypeError: Cannot read property '0' of undefined
+    at Router.redirect (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:516:18)
+    at Object.<anonymous> (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\app\router.js:4:11)
+    at Object.callFn (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\router.js:317:18)
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:350:31)
+
+pid: 49468
+hostname: UC-20171020DKPW
+
+2017-11-30 11:18:12,411 ERROR 55688 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property '0' of undefined
+    at Router.redirect (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:516:18)
+    at Object.<anonymous> (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\app\router.js:4:11)
+    at Object.callFn (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\router.js:317:18)
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:350:31)
+
+pid: 55688
+hostname: UC-20171020DKPW
+
+2017-11-30 11:19:17,236 ERROR 55688 [-/127.0.0.1/-/10ms GET /] nodejs.TypeError: Cannot read property '0' of undefined
+    at Router.redirect (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:516:18)
+    at Object.<anonymous> (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\app\router.js:4:11)
+    at Object.callFn (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\router.js:317:18)
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:350:31)
+
+pid: 55688
+hostname: UC-20171020DKPW
+
+2017-11-30 11:19:19,371 ERROR 49404 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property '0' of undefined
+    at Router.redirect (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:516:18)
+    at Object.<anonymous> (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\app\router.js:4:11)
+    at Object.callFn (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\router.js:317:18)
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:350:31)
+
+pid: 49404
+hostname: UC-20171020DKPW
+
+2017-11-30 11:19:33,003 ERROR 49404 [-/127.0.0.1/-/10ms GET /] nodejs.TypeError: Cannot read property '0' of undefined
+    at Router.redirect (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:516:18)
+    at Object.<anonymous> (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\app\router.js:4:11)
+    at Object.callFn (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\router.js:317:18)
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:350:31)
+
+pid: 49404
+hostname: UC-20171020DKPW
+
+2017-11-30 11:30:13,770 ERROR 51484 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1024:11)
+    at TCP.onread (net.js:615:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 51484
+hostname: UC-20171020DKPW
+
+2017-11-30 11:33:30,640 ERROR 57152 [-/127.0.0.1/-/14ms GET /] nodejs.InternalServerError: a security problem has been detected for url "http://www.baidu.com", redirection is prohibited.
+    at Object.throw (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa\lib\context.js:92:11)
+    at Object.redirect (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-security\lib\safe_redirect.js:64:34)
+    at Object.proto.(anonymous function) [as redirect] (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\delegates\index.js:40:31)
+    at HomeController.index (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\app\controller\home.js:5:14)
+    at Object.callFn (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\loader\mixin\controller.js:82:20)
+    at Object.callFn (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\router.js:317:18)
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+message: 'a security problem has been detected for url "http://www.baidu.com", redirection is prohibited.'
+pid: 57152
+hostname: UC-20171020DKPW
+
+2017-11-30 11:35:12,409 ERROR 53492 [-/127.0.0.1/-/9ms GET /] nodejs.InternalServerError: a security problem has been detected for url "http://www.baidu.com", redirection is prohibited.
+    at Object.throw (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa\lib\context.js:92:11)
+    at Object.redirect (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-security\lib\safe_redirect.js:64:34)
+    at Object.proto.(anonymous function) [as redirect] (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\delegates\index.js:40:31)
+    at HomeController.index (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\app\controller\home.js:5:14)
+    at Object.callFn (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\loader\mixin\controller.js:82:20)
+    at Object.callFn (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\router.js:317:18)
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+message: 'a security problem has been detected for url "http://www.baidu.com", redirection is prohibited.'
+pid: 53492
+hostname: UC-20171020DKPW
+
+2017-11-30 11:44:41,945 ERROR 45452 [-/127.0.0.1/-/17ms GET /index.html] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\app\controller\home.js:5:5)
+    at Object.callFn (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\loader\mixin\controller.js:82:20)
+    at Object.callFn (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\router.js:317:18)
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 45452
+hostname: UC-20171020DKPW
+
+2017-11-30 11:44:43,859 ERROR 45452 [-/127.0.0.1/-/0ms GET /index.html] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\app\controller\home.js:5:5)
+    at Object.callFn (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\loader\mixin\controller.js:82:20)
+    at Object.callFn (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\router.js:317:18)
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 45452
+hostname: UC-20171020DKPW
+
+2017-11-30 11:44:45,904 ERROR 45452 [-/127.0.0.1/-/0ms GET /index.html] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\app\controller\home.js:5:5)
+    at Object.callFn (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\loader\mixin\controller.js:82:20)
+    at Object.callFn (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\router.js:317:18)
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 45452
+hostname: UC-20171020DKPW
+
+2017-11-30 11:45:12,289 ERROR 45452 [-/127.0.0.1/-/0ms GET /index.html] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\app\controller\home.js:5:5)
+    at Object.callFn (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\loader\mixin\controller.js:82:20)
+    at Object.callFn (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-core\lib\utils\router.js:317:18)
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 45452
+hostname: UC-20171020DKPW
+
+2017-11-30 13:32:51,530 ERROR 54832 nodejs.ClusterClientNoResponseError: client no response in 5412483ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\cluster-client\lib\leader.js:73:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 54832
+hostname: UC-20171020DKPW
+
+2017-11-30 13:55:19,692 ERROR 54976 nodejs.EPERMError: Error watching file for changes: EPERM
+    at _errnoException (util.js:1024:11)
+    at FSEvent.FSWatcher._handle.onchange (fs.js:1351:9)
+code: 'EPERM'
+errno: 'EPERM'
+syscall: 'Error watching file for changes:'
+filename: null
+dir: 'C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\static'
+name: 'EPERMError'
+pid: 54976
+hostname: UC-20171020DKPW
+
+2017-11-30 14:05:11,467 ERROR 47872 [-/127.0.0.1/-/8ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\app\view\index.html
+    at ContextView.[contextView#render] (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\context_view.js:65:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: ''
+expected: true
+operator: '=='
+pid: 47872
+hostname: UC-20171020DKPW
+
+2017-11-30 14:05:13,769 ERROR 47872 [-/127.0.0.1/-/10ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\app\view\index.html
+    at ContextView.[contextView#render] (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\context_view.js:65:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: ''
+expected: true
+operator: '=='
+pid: 47872
+hostname: UC-20171020DKPW
+
+2017-11-30 14:27:42,876 ERROR 54832 [-/127.0.0.1/-/8ms GET /index.html] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg\lib\application.js:181:15)
+    at Object.get cookies [as cookies] (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg\app\extend\context.js:18:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-security\app\extend\context.js:77:33)
+    at Object.ensureCsrfSecret (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-security\app\extend\context.js:88:13)
+    at csrf (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-compose\index.js:42:32)
+    at next (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-compose\index.js:43:18)
+    at session (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\koa-session\index.js:41:13)
+
+pid: 54832
+hostname: UC-20171020DKPW
+
+2017-11-30 14:28:44,959 ERROR 58836 [-/127.0.0.1/-/16ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\app\view\index.html
+    at ContextView.[contextView#render] (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\context_view.js:65:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: ''
+expected: true
+operator: '=='
+pid: 58836
+hostname: UC-20171020DKPW
+
+2017-11-30 14:32:01,295 ERROR 62260 [-/127.0.0.1/-/9ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 62260
+hostname: UC-20171020DKPW
+
+2017-11-30 14:32:03,556 ERROR 62260 [-/127.0.0.1/-/0ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 62260
+hostname: UC-20171020DKPW
+
+2017-11-30 14:32:09,525 ERROR 62260 [-/127.0.0.1/-/1ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 62260
+hostname: UC-20171020DKPW
+
+2017-11-30 14:33:36,768 ERROR 58552 [-/127.0.0.1/-/10ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 58552
+hostname: UC-20171020DKPW
+
+2017-11-30 14:33:47,969 ERROR 58552 [-/127.0.0.1/-/0ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 58552
+hostname: UC-20171020DKPW
+
+2017-11-30 14:35:37,301 ERROR 61456 [-/127.0.0.1/-/10ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 61456
+hostname: UC-20171020DKPW
+
+2017-11-30 14:35:41,148 ERROR 61456 [-/127.0.0.1/-/0ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 61456
+hostname: UC-20171020DKPW
+
+2017-11-30 14:35:42,529 ERROR 61456 [-/127.0.0.1/-/1ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 61456
+hostname: UC-20171020DKPW
+
+2017-11-30 14:36:37,639 ERROR 61452 [-/127.0.0.1/-/15ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 61452
+hostname: UC-20171020DKPW
+
+2017-11-30 14:40:27,905 ERROR 2304 [-/127.0.0.1/-/12ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 2304
+hostname: UC-20171020DKPW
+
+2017-11-30 14:45:35,348 ERROR 2304 [-/127.0.0.1/-/0ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 2304
+hostname: UC-20171020DKPW
+
+2017-11-30 14:45:41,972 ERROR 2304 [-/127.0.0.1/-/0ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 2304
+hostname: UC-20171020DKPW
+
+2017-11-30 14:48:39,240 ERROR 61880 [-/127.0.0.1/-/12ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 61880
+hostname: UC-20171020DKPW
+
+2017-11-30 14:48:42,549 ERROR 61880 [-/127.0.0.1/-/1ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 61880
+hostname: UC-20171020DKPW
+
+2017-11-30 14:49:28,353 ERROR 63148 [-/127.0.0.1/-/0ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 63148
+hostname: UC-20171020DKPW
+
+2017-11-30 14:49:28,976 ERROR 63148 [-/127.0.0.1/-/0ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 63148
+hostname: UC-20171020DKPW
+
+2017-11-30 14:49:31,416 ERROR 63148 [-/127.0.0.1/-/1ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 63148
+hostname: UC-20171020DKPW
+
+2017-11-30 14:53:41,628 ERROR 63384 [-/127.0.0.1/-/13ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:76:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 63384
+hostname: UC-20171020DKPW
+
+2017-11-30 14:55:56,642 ERROR 62704 [-/127.0.0.1/-/10ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:78:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 62704
+hostname: UC-20171020DKPW
+
+2017-11-30 14:59:19,591 ERROR 62708 [-/127.0.0.1/-/26ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:78:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 62708
+hostname: UC-20171020DKPW
+
+2017-11-30 15:01:14,370 ERROR 55664 [-/127.0.0.1/-/16ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:80:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 55664
+hostname: UC-20171020DKPW
+
+2017-11-30 15:23:21,932 ERROR 65480 [-/127.0.0.1/-/23ms GET /index.html] nodejs.AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (C:\Users\UC\Desktop\myBlog\BlOG\myblog_back\node_modules\egg-view\lib\view_manager.js:86:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 65480
+hostname: UC-20171020DKPW
+

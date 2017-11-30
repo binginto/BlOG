@@ -1,247 +1,248 @@
 {
-  "keys": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\config\\config.default.js",
+  "keys": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\config.default.js",
   "view": {
-    "defaultViewEngine": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\config\\config.default.js",
+    "root": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\config.default.js",
+    "cache": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\config.default.js",
+    "defaultViewEngine": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\config.default.js",
     "mapping": {
-      ".tpl": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\config\\config.default.js"
-    },
-    "root": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-view\\config\\config.default.js"
+      ".tpl": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\config.default.js"
+    }
   },
   "news": {
-    "pageSize": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\config\\config.default.js",
-    "serverUrl": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\config\\config.default.js"
+    "pageSize": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\config.default.js",
+    "serverUrl": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\config.default.js"
   },
-  "middleware": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\config\\config.default.js",
+  "middleware": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\config.default.js",
   "robot": {
-    "ua": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\config\\config.default.js"
+    "ua": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\config.default.js"
+  },
+  "static": {
+    "prifix": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\config.default.js",
+    "dir": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\config.default.js",
+    "dynamic": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\config.default.js",
+    "preload": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\config.default.js",
+    "buffer": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\config.default.js",
+    "prefix": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-static\\config\\config.default.js"
   },
   "security": {
-    "domainWhiteList": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\config\\config.default.js",
-    "protocolWhiteList": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\config\\config.default.js",
+    "protocolWhiteList": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xframe": {
-      "enable": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
   "session": {
-    "maxAge": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-session\\config\\config.default.js"
   },
   "helper": {
-    "shtml": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-multipart\\config\\config.default.js"
+    "autoFields": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-multipart\\config\\config.default.js"
   },
   "development": {
-    "watchDirs": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-development\\config\\config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-logrotator\\config\\config.default.js"
-  },
-  "static": {
-    "prefix": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-static\\config\\config.default.js"
+    "filesRotateByHour": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "nunjucks": {
-    "autoescape": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "throwOnUndefined": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "trimBlocks": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "lstripBlocks": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "cache": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+    "autoescape": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
   },
-  "cors": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg-cors\\config\\config.default.js",
-  "env": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-  "name": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "cors": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg-cors\\config\\config.default.js",
+  "env": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+  "name": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "version": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "description": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "main": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "name": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "version": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "description": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "main": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
     "scripts": {
-      "test": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-      "cov": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-      "dev": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+      "test": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+      "cov": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+      "dev": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js"
     },
-    "author": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "license": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "author": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "license": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-      "egg": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-      "egg-cors": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-      "egg-view-nunjucks": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+      "egg": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-      "egg-mock": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+      "egg-bin": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js"
     }
   },
-  "baseDir": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "strict": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "enable": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "strict": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-      "depth": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+      "depth": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "logger": {
-    "dir": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "env": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "level": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "dir": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "env": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "level": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxAge": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js"
     }
   },
-  "coreMiddleware": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-      "port": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+      "path": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+      "port": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "responseTimeout": "C:\\Users\\UC\\Desktop\\MyRepo\\egg-demo\\node_modules\\egg\\config\\config.default.js"
+    "responseTimeout": "C:\\Users\\UC\\Desktop\\myBlog\\BlOG\\myblog_back\\node_modules\\egg\\config\\config.default.js"
   }
 }
