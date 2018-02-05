@@ -1,0 +1,31 @@
+Env: production
+
+version: v0
+
+Database:
+  name: ENV:MYSQL_DATABASE
+  host: ENV:MYSQL_HOST
+  username: ENV:MYSQL_USER
+  password: ENV:MYSQL_PASSWORD
+  port: ENV:MYSQL_PORT
+  logging: !!bool false
+
+Cache:
+  host: ENV:CACHE_HOST
+  port: ENV:CACHE_PORT
+  auth: ENV:CACHE_PASSWORD
+  db: ENV:CACHE_DB
+  prefix: 'wx-world-meeting:'
+
+Jwt:
+  secret: ENV:JWT_SECRET
+  algorithm: RS256
+  exp: 5184000000
+
+Wx:
+  appid: ENV:WECHAT_APPID
+  secret: ENV:WECHAT_APPSECRET
+  mchid: ENV:WECHAT_MCHID
+  partnerKey: ENV:WECHAT_PARTNER_KEY
+  notifyUrl: ENV:WECHAT_NOTIFY_URL
+  payNotifyString: <xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>

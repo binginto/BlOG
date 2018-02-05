@@ -1,22 +1,79 @@
 {
-  "name": "egg-demo",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "egg-bin test",
-    "cov": "egg-bin cov",
-    "dev": "egg-bin dev --port 7003"
+    "test": "npm test",
+    "init": "mock=true mocha ./task/init-database.js --no-timeouts",
+    "mock": "mock=true mocha ./task/mock.js --no-timeouts",
+    "lint": "eslint --fix ."
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chuxinnet/wx-world-meeting.git"
+  },
+  "author": "elvischan <779565771@qq.com>",
   "license": "ISC",
-  "dependencies": {
-    "egg": "^2.0.0",
-    "egg-cors": "^2.0.0",
-    "egg-view-nunjucks": "^2.1.4"
+  "bugs": {
+    "url": "https://github.com/chuxinnet/wx-world-meeting/issues"
+  },
+  "homepage": "https://github.com/chuxinnet/wx-world-meeting#readme",
+  "nyc": {
+    "all": true,
+    "cache": true,
+    "exclude": [
+      "coverage",
+      "task",
+      "test"
+    ],
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   },
   "devDependencies": {
-    "egg-bin": "^4.3.5",
-    "egg-mock": "^3.13.1"
+    "ava": "^0.19.1",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^3.16.1",
+    "eslint-config-standard": "^7.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "husky": "^0.13.3",
+    "js-yaml": "^3.8.4",
+    "nyc": "^10.2.0",
+    "supertest": "^3.0.0",
+    "validate-commit-msg": "^2.12.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "co-body": "^5.1.1",
+    "config": "^1.29.2",
+    "https": "^1.0.0",
+    "ioredis": "^3.2.2",
+    "jsonwebtoken": "^8.1.1",
+    "kcors": "^2.2.1",
+    "koa": "^2.4.1",
+    "koa-compose": "^4.0.0",
+    "koa-joi-router": "^5.1.0",
+    "koa-jwt": "^3.3.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.3.0",
+    "mockjs": "^1.0.1-beta3",
+    "mysql2": "^1.5.1",
+    "node-require-directory": "^1.0.2",
+    "redlock": "^3.1.0",
+    "request": "^2.83.0",
+    "require-dir": "^0.3.2",
+    "sequelize": "^4.32.1",
+    "uuid": "^3.2.1",
+    "wechat-pay": "^0.3.2",
+    "xml2json": "^0.11.0"
   }
 }

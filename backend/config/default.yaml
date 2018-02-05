@@ -1,0 +1,49 @@
+Database:
+  name: wx-world-meeting
+  host: 127.0.0.1
+  port: 3306
+  dialect: mysql
+  username: root
+
+Cache:
+  host: 127.0.0.1
+  port: 6379
+  db: 1
+  prefix: 'wx-world-meeting:'
+
+Jwt:
+  secret: NQUZctQ7GM8fzv0ltlQbbd3gedz0HlCI
+  algorithm: RS256
+  exp: 5184000000
+
+Wx:
+  appid: wxfa8a1c16deadc8f7
+  secret: c8fc8ae7ba4dc0b248cd1749b377fd23
+  mchid: !!str 1232733402
+  partnerKey: 3fef2c4005a211e8a77a31f3d6e24526
+  notifyUrl: https://interface.zhiboeasy.com/v0/order/callback
+  payNotifyString: <xml><return_code><![CDATA[SUCCESS]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+
+OrderState:
+  unpaid: 0
+  paid: 1
+
+OrderInterfaceState:
+  total: 0 # 全部
+  coming: 1 # 待参与的
+  finished: 2 # 已完成的
+  refunded: 3 # 退款的
+  canceled: 4 # 已取消的
+
+MeetingPlace:
+  primary: 0
+  secondary: 1
+
+TicketType:
+  ticket: 0
+  course: 1
+
+DefaultLockTTL: 1000
+
+Port: 8000
+Env: development
