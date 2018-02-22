@@ -1,10 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from '@/components/index'
-import Binginto from '@/components/binginto/binginto'
-import Guest from '@/components/guest/guest'
+import Index from 'pages/index/index'
+import Binginto from 'pages/binginto/binginto'
+import Guest from 'pages/guest/guest'
 
 Vue.use(Router)
+
+// 开启debug模式
+Vue.config.debug = true
 
 export default new Router({
   routes: [

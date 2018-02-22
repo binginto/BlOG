@@ -21,15 +21,19 @@ module.exports = {
       : config.dev.assetsPublicPath
   },
   resolve: {
-    extensions: ['.js', '.vue', '.json'],
+    extensions: ['.js', '.vue', '.json', '.css', '.scss'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      '@': resolve('src'),
+      'src': resolve('src'),
+      'assets': resolve(path.join('src', 'assets')),
+      'components': resolve(path.join('src', 'components')),
+      'pages': resolve(path.join('src', 'pages')),
+      'styles': resolve(path.join('src', 'styles'))
     }
   },
   module: {
     rules: [
-      ...(config.dev.useEslint? [{
+      ...(config.dev.useEslint ? [{
         test: /\.(js|vue)$/,
         loader: 'eslint-loader',
         enforce: 'pre',
@@ -72,6 +76,16 @@ module.exports = {
           limit: 10000,
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
+      },
+      {
+        test: /\.scss$/,
+        use: [{
+          loader: 'style-loader' // 将 JS 字符串生成为 style 节点
+        }, {
+          loader: 'css-loader' // 将 CSS 转化成 CommonJS 模块
+        }, {
+          loader: 'sass-loader' // 将 Sass 编译成 CSS
+        }]
       }
     ]
   }
