@@ -3,6 +3,7 @@ const path = require('path')
 const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
+const webpack = require('webpack')
 
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
@@ -28,9 +29,16 @@ module.exports = {
       'assets': resolve(path.join('src', 'assets')),
       'components': resolve(path.join('src', 'components')),
       'pages': resolve(path.join('src', 'pages')),
-      'styles': resolve(path.join('src', 'styles'))
+      'styles': resolve(path.join('src', 'styles')),
+      'jquery': 'jquery'
     }
   },
+  plugins: [
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      JQuery: 'jquery'
+    })
+  ],
   module: {
     rules: [
       ...(config.dev.useEslint ? [{
