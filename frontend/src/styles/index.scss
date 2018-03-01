@@ -91,7 +91,7 @@
     display: none;
     overflow: hidden;
     position: absolute;
-    top: 0;
+    top: -100vh;
     transition: background-color .1s linear;
     width: 100%;
     will-change: background-color;

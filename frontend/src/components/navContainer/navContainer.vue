@@ -10,7 +10,7 @@
         </span>
     </button>
   </div>
-  <div class="show-menu" :class="{showMenuActive: isShowMenu}">
+  <div id="ttt" class="show-menu" :class="{showMenuActive: isShowMenu, active: isShowMenu}">
     <div class="top-nav">
         <button @click="showMenu" class="toggle-button navigation-toggle toggle-button-active">
         <span class="toggle-button-menu-text">Menu</span>
@@ -53,14 +53,29 @@ export default {
   methods: {
     showMenu () {
       this.isShowMenu = !this.isShowMenu
+      console.log(this.isShowMenu)
+      if (this.isShowMenu) {
+        console.log('tt')
+        console.log(this.isShowMenu)
+      }
     }
   }
 }
 </script>
 
 <style lang="scss" scoped>
-@import '~styles/index'
+@import '~styles/index';
+.active {
+ animation:mymove infinite;
+ animation-duration:2s;
+ animation-fill-mode: forwards;
+}
 
+@keyframes mymove
+{
+	from {top:-100vh;}
+	to {top:0;}
+}
 </style>
 
 
