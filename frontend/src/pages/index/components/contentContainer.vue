@@ -24,36 +24,7 @@ import util from '../../util/util'
 export default {
   data () {
     return {
-      info: [
-        {
-          banner: 'http://otfpsk942.bkt.clouddn.com/1.jpg',
-          title: 'test',
-          author: 'By binginto',
-          introduction: '简单介绍',
-          time: 'March，4，2017'
-        },
-        {
-          banner: 'http://otfpsk942.bkt.clouddn.com/1.jpg',
-          title: 'test',
-          author: 'By binginto',
-          introduction: '简单介绍',
-          time: 'March，4，2017'
-        },
-        {
-          banner: 'http://otfpsk942.bkt.clouddn.com/1.jpg',
-          title: 'test',
-          author: 'By binginto',
-          introduction: '简单介绍',
-          time: 'March，4，2017'
-        },
-        {
-          banner: 'http://otfpsk942.bkt.clouddn.com/1.jpg',
-          title: 'test',
-          author: 'By binginto',
-          introduction: '简单介绍',
-          time: 'March，4，2017'
-        }
-      ]
+      info: []
     }
   },
   created () {

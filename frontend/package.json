@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
+    "highlight": "^0.2.4",
     "jquery": "^3.3.1",
+    "marked": "^0.3.17",
     "vue": "^2.5.2",
     "vue-axios": "^2.0.2",
     "vue-router": "^3.0.1"

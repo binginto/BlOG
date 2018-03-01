@@ -10,9 +10,9 @@
             </h2>
             <p class="hero-content-blog"></p>
             <div class="hero-cta-wrap">
-            <a href="https://www.anchour.com/blog/spotlight-stephen-and-josh" class="hero-cta-btn button button-white-hollow">
+            <router-link to="/info?id=a91d8120-1c73-11e8-8fe0-af82850b1b27" class="hero-cta-btn button button-white-hollow">
                 Read More
-            </a>
+            </router-link>
             </div>
         </div>
         </div>
@@ -40,12 +40,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../../../styles/variable.scss';
 .my-container {
     width: 100vw;
     max-height: 80vh;
     .row {
       position: relative;
-      min-height: 80vh;
+      min-height: 60vh;
       z-index: 100;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -82,7 +83,8 @@ export default {
       font-family: Avenir Next W01 Light, Helvetica Neue, helvetica, arial, sans-serif;
       letter-spacing: 2px;
       font-weight: 500;
-      font-size: 18px;
+      font-size: 28px;
+      line-height: 28px;
       text-transform: uppercase;
     }
     .hero-headline {
@@ -104,6 +106,11 @@ export default {
         margin-left: auto;
         margin-right: auto;
       }
+      .hero-cta-btn:hover {
+        background: $white;
+        color: $primary-text;
+        text-decoration: none;
+      }
       .hero-cta-btn:first-child {
         margin-bottom: 20px;
       }
@@ -124,7 +131,7 @@ export default {
         transition: .1s esse-in-out;
         text-transform: uppercase;
         width: 255px;
-        will-change: background-color, border-color, color;
+        will-change: $white, $white, $primary-text;
       }
       .button-white-hollow {
         background-color: transparent;
@@ -133,7 +140,6 @@ export default {
       }
     }
   }
-
   .hero-down-arrow {
     bottom: 80px;
     display: block;
@@ -143,6 +149,12 @@ export default {
     position: absolute;
     width: 47px;
     z-index: 200;
+  }
+
+  @media (max-height:500px) {
+    .hero-down-arrow {
+      display: none;
+    }
   }
 
   .hero-down-arrow:before {
