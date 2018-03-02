@@ -10,7 +10,7 @@
         </span>
     </button>
   </div>
-  <div id="ttt" class="show-menu" :class="{showMenuActive: isShowMenu, active: isShowMenu}">
+  <div class="show-menu showMenuActive" :class="{ active: isShowMenu, unactive: (!isShowMenu && !isFirst)}">
     <div class="top-nav">
         <button @click="showMenu" class="toggle-button navigation-toggle toggle-button-active">
         <span class="toggle-button-menu-text">Menu</span>
@@ -47,17 +47,16 @@
 export default {
   data () {
     return {
-      isShowMenu: false
+      isShowMenu: false,
+      isFirst: true
     }
+  },
+  created () {
   },
   methods: {
     showMenu () {
       this.isShowMenu = !this.isShowMenu
-      console.log(this.isShowMenu)
-      if (this.isShowMenu) {
-        console.log('tt')
-        console.log(this.isShowMenu)
-      }
+      this.isFirst = false
     }
   }
 }
@@ -65,9 +64,20 @@ export default {
 
 <style lang="scss" scoped>
 @import '~styles/index';
+.hide-link:hover {
+  color: #0dc3ad;
+}
 .active {
  animation:mymove infinite;
- animation-duration:2s;
+ animation-duration:0.8s;
+ animation-iteration-count:1;
+ animation-fill-mode: forwards;
+}
+
+.unactive {
+ animation:missmove infinite;
+ animation-duration:0.8s;
+ animation-iteration-count:1;
  animation-fill-mode: forwards;
 }
 
@@ -75,6 +85,12 @@ export default {
 {
 	from {top:-100vh;}
 	to {top:0;}
+}
+
+@keyframes missmove
+{
+	from {top:0;}
+	to {top:-100vh;}
 }
 </style>
 

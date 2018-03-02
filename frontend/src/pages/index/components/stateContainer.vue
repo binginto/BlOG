@@ -4,7 +4,6 @@
       <div class="row row-vc row-hc row-flat">
         <div class="col">
         <div class="hero-content">
-            <p class="hero-headline-upper">Hello</p>
             <h2 class="hero-headline hero-headline-blog">
             Welcome to binginto's home
             </h2>
@@ -79,14 +78,6 @@ export default {
 
   .hero-content {
     text-align: center;
-    .hero-headline-upper {
-      font-family: Avenir Next W01 Light, Helvetica Neue, helvetica, arial, sans-serif;
-      letter-spacing: 2px;
-      font-weight: 500;
-      font-size: 28px;
-      line-height: 28px;
-      text-transform: uppercase;
-    }
     .hero-headline {
       font-weight: 800;
       font-size: 34px;
