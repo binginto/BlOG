@@ -48,8 +48,7 @@ export default {
 <style lang="scss" scoped>
 @import '~styles/variable';
 .main-container {
-  padding: 30px 30px 0 30px;
-  margin-right: 30px; 
+  padding: 30px;
   background: #eee;
   display: flex;
   flex-direction: row;
@@ -61,7 +60,6 @@ export default {
 
   .main-item {
     flex: 0 1 100%;
-    position: relative;
     max-width: 100%;
     padding: 0 20px 30px;
     background: #eee;

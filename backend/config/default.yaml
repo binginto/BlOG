@@ -4,6 +4,7 @@ Database:
   port: 3306
   dialect: mysql
   username: root
+  password: 'binginto520'
 
 Cache:
   host: 127.0.0.1
