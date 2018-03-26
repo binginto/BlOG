@@ -1,6 +1,6 @@
 Database:
   name: myblog
-  host: 127.0.0.1
+  host: 123.207.247.200
   port: 3306
   dialect: mysql
   username: root
