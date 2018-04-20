@@ -1,0 +1,33 @@
+.hero-down-arrow {
+    bottom: 80px;
+    display: block;
+    left: 50%;
+    height: 10px;
+    margin-left: -23px;
+    position: absolute;
+    width: 47px;
+    z-index: 200;
+  }
+  
+
+  @media (max-height:500px) {
+    .hero-down-arrow {
+      display: none;
+    }
+  }
+
+  .hero-down-arrow:before {
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 90 38' fill='%23fff'%3E%3Cpath d='M45 38.2c-.9 0-1.7-.3-2.5-.8L1.7 7.3C-.2 6-.5 3.4.8 1.5 2.2-.3 4.7-.7 6.6.6L45 28.9 83.4.6c1.8-1.4 4.4-1 5.8.9 1.4 1.8 1 4.4-.9 5.8L47.5 37.4c-.8.5-1.6.8-2.5.8z'/%3E%3C/svg%3E") no-repeat top;
+    background-size: 80% auto;
+    content: '';
+    display: block;
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    transition: all .1s ease;
+    width: 100%;
+  }
