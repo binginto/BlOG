@@ -1,17 +1,24 @@
 <template>
   <div>
-    <h3>{{title}}</h3>
-    <p>没错，这些都是我的原创作品</p>
-  </div>  
+    <head-title :title="headTitle" :message="message"></head-title>
+    <content-container></content-container>
+  </div> 
 </template>
 
 <script>
+import contentContainer from '../../components/contentContainer/contentContainer'
+import headTitle from '../../components/headTitle/headTitle'
 export default {
   data () {
     return {
-      title: 'myWork',
+      headTitle: 'my work',
+      message: '大时代，hello',
       myWorkInfo: ''
     }
+  },
+  components: {
+    contentContainer,
+    headTitle
   }
 }
 </script>

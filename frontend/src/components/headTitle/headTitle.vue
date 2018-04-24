@@ -1,17 +1,27 @@
 <template>
   <div>
     <h3>{{title}}</h3>
-    <content-container></content-container>
+    <div>
+      {{message}}
+    </div>
   </div> 
 </template>
 
 <script>
 import contentContainer from '../../components/contentContainer/contentContainer'
 export default {
+  props: {
+    title: {
+      required: true
+    },
+    message: {
+      default: 'helllo, friend, this is mywork'
+    }
+  },
   data () {
     return {
-      title: 'Blog',
-      myWorkInfo: ''
+      title: 'myWork',
+      myWorkInfo: 'hello, friend, this is my work'
     }
   },
   components: {
@@ -23,5 +33,3 @@ export default {
 <style lang="scss" scoped>
 
 </style>
-
-

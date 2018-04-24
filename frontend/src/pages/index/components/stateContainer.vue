@@ -9,7 +9,7 @@
             </h2>
             <p class="hero-content-blog"></p>
             <div class="hero-cta-wrap">
-            <router-link to="/info?id=a91d8120-1c73-11e8-8fe0-af82850b1b27" class="hero-cta-btn button button-white-hollow">
+            <router-link to="/info?id=56ff1630-30b2-11e8-aabe-773a5338e430" class="hero-cta-btn button button-white-hollow">
                 Read More
             </router-link>
             </div>

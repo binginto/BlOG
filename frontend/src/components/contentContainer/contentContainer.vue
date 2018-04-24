@@ -19,8 +19,8 @@
 </template>
 
 <script>
-import router from '../../../router'
-import util from '../../util/util'
+import router from '../../router'
+import util from '../../pages/util/util'
 export default {
   data () {
     return {
