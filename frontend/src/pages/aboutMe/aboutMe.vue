@@ -64,7 +64,7 @@ export default {
   },
   created: function () {
     var that = this
-    setTimeout( function () {
+    setTimeout(function () {
       that.titleTimer(that.activeInfos[0], that.infos[0])
     }, 1500)
   },
@@ -77,22 +77,22 @@ export default {
       } else {
         this.isfirst = false
       }
-      var trueId = Number( id.substring( 1, 2) ) - 1
-      this.titleTimer( this.activeInfos[trueId], this.infos[trueId] )
+      var trueId = Number(id.substring(1, 2)) - 1
+      this.titleTimer(this.activeInfos[trueId], this.infos[trueId])
     },
     titleTimer (activeInfo, info) {
       var i = 1
       var j = 1
       var timer = setInterval(function () {
-        activeInfo.title = info.title.substring( 0, i);
+        activeInfo.title = info.title.substring(0, i)
         i++
         if (activeInfo.title.length === info.title.length) {
-          clearInterval(timer);
+          clearInterval(timer)
           var descTimer = setInterval(function () {
-            activeInfo.desc = info.desc.substring( 0, j)
+            activeInfo.desc = info.desc.substring(0, j)
             j++
-            if (activeInfo.desc.length == info.desc.length) {
-              clearInterval(descTimer);
+            if (activeInfo.desc.length === info.desc.length) {
+              clearInterval(descTimer)
             }
           }, 150)
         }
