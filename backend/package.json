@@ -69,6 +69,7 @@
     "koa-logger": "^3.1.0",
     "koa-router": "^7.3.0",
     "marked": "^0.3.16",
+    "mock": "^0.1.1",
     "mockjs": "^1.0.1-beta3",
     "mysql2": "^1.5.1",
     "node-require-directory": "^1.0.2",
