@@ -17,7 +17,7 @@ export default {
   data () {
     return {
       infos: [{
-        title: '我的故事',
+        title: '我的故事啦啦啦',
         desc: 'hello,myname is binginto ',
         id: 't1',
         frontId: 't2'

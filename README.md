@@ -10,3 +10,7 @@ windows下 创建软连接
 cnpm install --global mocha
 2、运行文章
 mocha ./task/createBlog.js
+
+
+更新
+1、登录腾讯云 binginto@1993
